@@ -1,4 +1,5 @@
-import 'package:articles/domain/models.dart';
+
+import 'package:post_app_testing/domain/model/post.dart';
 
 class PostDataModel {
   final String? imageUrl;
