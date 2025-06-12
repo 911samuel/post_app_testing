@@ -1,5 +1,6 @@
-import 'package:articles/data/services/post_service.dart';
-import 'package:articles/domain/models.dart';
+
+import 'package:post_app_testing/data/services/post_service.dart';
+import 'package:post_app_testing/domain/model/post.dart';
 
 abstract class PostRepository {
   Future<List<Post>> fetchPosts();
