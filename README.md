@@ -61,8 +61,14 @@ Post App Testing is a Flutter application designed to fetch and display posts fr
 - The `lib/utils` folder contains utility classes for commands and result handling.
 
 ## Visuals
-- The app features a responsive UI with post cards displaying images, titles, descriptions, and dates.
-- Supports light and dark themes.
+### Light Theme
+![Light Theme](assets/images/light_theme.png)
+
+### Dark Theme
+![Dark Theme](assets/images/dark_theme.png)
+
+### Post Card
+![Post Card](assets/images/post_card.png)
 
 ## Support Information
 For support, please open an issue on the GitHub repository or contact the maintainer via email.
