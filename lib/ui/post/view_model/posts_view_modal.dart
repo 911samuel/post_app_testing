@@ -1,12 +1,11 @@
-
-
 import 'dart:io';
-
-import 'package:articles/data/repositories/post_repository.dart';
-import 'package:articles/domain/models.dart';
 import 'package:flutter/foundation.dart';
-import 'package:articles/utils/command.dart';
-import 'package:articles/utils/result.dart';
+import 'package:post_app_testing/data/repositories/post_repository.dart';
+import 'package:post_app_testing/domain/model/post.dart';
+import 'package:post_app_testing/utils/command.dart';
+import 'package:post_app_testing/utils/result.dart';
+
+
 
 class PostsViewModal extends ChangeNotifier {
   PostsViewModal(this._repository) {
