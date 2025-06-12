@@ -68,7 +68,7 @@ Post App Testing is a Flutter application designed to fetch and display posts fr
 ![Dark Theme](assets/images/dark.png)
 
 ### Post Card
-![Post Card](assets/images/post.png)
+![Post Card](assets/images/card.png)
 
 ## Support Information
 For support, please open an issue on the GitHub repository or contact the maintainer via email.
