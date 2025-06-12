@@ -1,8 +1,9 @@
-import 'package:articles/core/ui/post_card.dart';
-import 'package:articles/ui/post/posts_view_modal.dart';
-import 'package:articles/core/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+
+import 'package:post_app_testing/core/theme.dart';
+import 'package:post_app_testing/core/ui/post_card.dart';
+import 'package:post_app_testing/ui/post/view_model/posts_view_modal.dart';
 
 class PostsScreen extends StatefulWidget {
   const PostsScreen({super.key});
