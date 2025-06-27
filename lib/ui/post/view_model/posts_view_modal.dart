@@ -1,5 +1,5 @@
 import 'dart:io';
-import 'package:flutter/foundation.dart';
+import 'package:flutter/widgets.dart';
 import 'package:post_app_testing/data/repositories/post_repository.dart';
 import 'package:post_app_testing/domain/model/post.dart';
 import 'package:post_app_testing/utils/command.dart';
@@ -10,7 +10,10 @@ import 'package:post_app_testing/utils/result.dart';
 class PostsViewModal extends ChangeNotifier {
   PostsViewModal(this._repository) {
     fetchPostsCommand.addListener(() {
-      notifyListeners();
+      // Defer notifyListeners to avoid calling during build
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        notifyListeners();
+      });
     });
   }
   final PostRepository _repository;
